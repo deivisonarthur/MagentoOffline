@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!--
+
+/*=========================================================================================================================================================
+ *
+ *  PROJETO Magento Offline V2.0
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *  O módulo One Step Checkout normatizado para a localização brasileira.
+ *  site do projeto: http://onestepcheckout.com.br/MagentoOffline/
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *
+ *
+ *  Mantenedores do Projeto:
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *  Deivison Arthur Lemos Serpa
+ *  deivison.arthur@gmail.com
+ *  www.deivison.com.br
+ *  (21)9203-8986
+ *
+ *  Denis Colli Spalenza
+ *  http://www.xpdev.com.br
+ *
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *
+ *
+ *  GOSTOU DO MÓDULO?
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *  Se você gostou, se foi útil para você, se fez você economizar aquela grana pois estava prestes a pagar caro por aquele módulo pago, pois não achava um
+ *  solução gratuita que te atendesse e queira prestigiar o trabalho feito efetuando uma doação de qualquer valor, não vou negar e vou ficar grato, você
+ *  pode fazer isso visitando a página do projeto em: http://onestepcheckout.com.br/MagentoOffline/
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+/*=========================================================================================================================================================
+ */
+
+-->
+<config>
+    <modules>
+        <DeivisonArthur_MagentoOffline>
+            <version>2.0</version>
+        </DeivisonArthur_MagentoOffline>
+    </modules>
+	<global>
+		<helpers>
+            <MagentoOffline>
+                <class>DeivisonArthur_MagentoOffline_Helper</class>
+            </MagentoOffline>
+        </helpers>
+		 
+	</global>
+	<stores>
+        <default>
+            <web>
+                <routers>
+                     <standard><area>frontend</area><class>DeivisonArthur_MagentoOffline_Controller_Router_Standard</class></standard>
+                </routers>
+            </web>
+        </default>
+    </stores>
+	<default>
+		<web>
+            <routers> 
+                <standard><area>frontend</area><class>DeivisonArthur_MagentoOffline_Controller_Router_Standard</class></standard>
+            </routers>
+		</web>
+		<MagentoOffline>
+			<settings>
+                <enabled>0</enabled>
+				<message><![CDATA[
+<style>
+body {
+background:#fff none repeat scroll 0 0;
+color:#000;
+font-family:Helvetica,Arial,Verdana,sans-serif;
+font-size:12px;
+ 
+margin:0;
+padding:0;
+text-align:center;
+}
+h1 
+{
+	margin:0px;
+	padding:0px;
+ 	margin-top:10%;
+ 	font-size: 25pt;
+ 	display:block;
+}
+h2
+{
+	padding:0px;
+ 	margin-top: 5px;
+ 	font-size: 18pt;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>
+<img src="http://onestepcheckout.com.br/MagentoOffline/coffe_cup.gif">
+<br/><br/>
+Desculpem o transtorno, estamos realizando uma pequena atualização em nosso shop</h1>
+<h2>Aproveite esse tempo para desfrutar de uma xícara de café e, em seguida, tente atualizar esta página! </h2>
+<br/>
+Obrigado e volte sempre!
+ ]]>
+</message> 
+			</settings>
+		</MagentoOffline>
+	</default>
+ 
+  <adminhtml>
+        <translate>
+            <modules>
+                <DeivisonArthur_MagentoOffline>
+                    <files>
+                        <default>DeivisonArthur_MagentoOffline.csv</default>
+                    </files>
+                </DeivisonArthur_MagentoOffline>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <MagentoOffline>
+                                            <title>Magento Offline</title>
+                                        </MagentoOffline>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+     
+</config>

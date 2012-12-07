@@ -1,0 +1,42 @@
+<?php
+
+/*=========================================================================================================================================================
+ *
+ *  PROJETO Magento Offline V2.0
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *  O módulo One Step Checkout normatizado para a localização brasileira.
+ *  site do projeto: http://onestepcheckout.com.br/MagentoOffline/
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *
+ *
+ *  Mantenedores do Projeto:
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *  Deivison Arthur Lemos Serpa
+ *  deivison.arthur@gmail.com
+ *  www.deivison.com.br
+ *  (21)9203-8986
+ *
+ *  Denis Colli Spalenza
+ *  http://www.xpdev.com.br
+ *
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *
+ *
+ *  GOSTOU DO MÓDULO?
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *  Se você gostou, se foi útil para você, se fez você economizar aquela grana pois estava prestes a pagar caro por aquele módulo pago, pois não achava um
+ *  solução gratuita que te atendesse e queira prestigiar o trabalho feito efetuando uma doação de qualquer valor, não vou negar e vou ficar grato, você
+ *  pode fazer isso visitando a página do projeto em: http://onestepcheckout.com.br/MagentoOffline/
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+/*=========================================================================================================================================================
+ */
+
+
+class DeivisonArthur_MagentoOffline_Helper_Data extends Mage_Core_Helper_Abstract
+{
+
+}

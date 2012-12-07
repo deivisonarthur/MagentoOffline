@@ -1,0 +1,124 @@
+<!--
+
+/*=========================================================================================================================================================
+ *
+ *  PROJETO Magento Offline V2.0
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *  O modulo Magento Offline.
+ *  site do projeto: http://onestepcheckout.com.br/MagentoOffline/
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *
+ *
+ *  Mantenedores do Projeto:
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *  Deivison Arthur Lemos Serpa
+ *  deivison.arthur@gmail.com
+ *  www.deivison.com.br
+ *  (21)9203-8986
+ *
+ *  Denis Colli Spalenza
+ *  http://www.xpdev.com.br
+ *
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+ *
+ *
+ *  GOSTOU DO MODULO?
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *  Se voce gostou, se foi util para voce, se fez voce economizar aquela grana pois estava prestes a pagar caro por aquele modulo pago, pois nao achava um
+ *  solucao gratuita que te atendesse e queira prestigiar o trabalho feito efetuando uma doacao de qualquer valor, nao vou negar e vou ficar grato, voce
+ *  pode fazer isso visitando a pagina do projeto em: http://onestepcheckout.com.br/MagentoOffline/
+ *  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ *
+/*=========================================================================================================================================================
+ */
+
+
+-->                               
+<config>
+    <sections>
+        <MagentoOffline translate="label" module="MagentoOffline">
+            <label><![CDATA[ <div style="height: 33px; "><img src="http://onestepcheckout.com.br/MagentoOffline/logop.png" style="float:left; "/><div style="padding-top:8px; width: 220px">&nbsp;Magento Offline v2.0</div></div>]]></label>
+            <tab>advanced</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>991</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				<settings translate="label">
+                    <label>Configuracao Geral</label>
+                    <comment>
+                    <![CDATA[
+                    <div>
+                          <br style="clear: both;"/>
+                          <a style="width: 130px; height: 88px; display: block; float: left" href="http://onestepcheckout.com.br/MagentoOffline" target="_blank" style="float: left;"><img src="http://onestepcheckout.com.br/MagentoOffline/logoG.png" /></a>
+                          <div style="width: 600px; height: 88px; display: block; float: left; padding-left: 30px; padding-top:77px">
+                          <label style="font-size: 44px">Magento<strong>Offline</strong> Vers&atilde;o: <strong> V2.0</strong></label>
+                          </div>
+
+                          <br style="clear: both;"/>
+                           <br />
+                          <hr>
+
+                          <br />
+                          <p>
+                          Conhe&ccedil;a o Projeto Magento Offline. O m&oacute;dulo Magento Offline, &eacute; gratuito e funciona nas vers&otilde;es acima de 1.4 do Magento!
+                          <br /><br />
+                          <h2>Mantido por: <a href="http://www.deivison.com.br/" target="_blank">Deivison Arthur</a></h2>
+                          </p>
+                          <br /><br />
+                          <h2>GOSTOU DO MODULO?</h2>
+                          +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
+                          Se voce gostou, se foi util para voce, se fez voce economizar aquela grana pois estava prestes a pagar caro por aquele modulo pago, pois nao achava uma<br />
+                          solucao gratuita que te atendesse e queira prestigiar o trabalho feito efetuando uma doacao de qualquer valor, nao vou negar e vou ficar grato! voce<br />
+                          pode fazer isso visitando a pagina do projeto em: <a href="http://onestepcheckout.com.br/MagentoOffline" target="_blank">http://onestepcheckout.com.br/MagentoOffline</a><br />
+                          +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                          <br /><br /><br /><br /><hr>
+                    </div>
+                    ]]></comment>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+
+						<enabled translate="label">
+                            <label>Shop Offline</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+						 <message translate="label">
+                            <label>Messagem em Html</label>
+                            <comment><![CDATA[ Caso precise do codigo original do projeto visite <a target="_blank" href="https://gist.github.com/3732141">https://gist.github.com/3732141</a>]]></comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </message>
+
+						 <showreminder translate="label">
+                            <label>Exibir mensagem de offline a administrador logado? </label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>1</show_in_store>
+						</showreminder>
+
+
+                    </fields>
+                </settings>
+             </groups>
+        </MagentoOffline>
+    </sections>
+</config>
