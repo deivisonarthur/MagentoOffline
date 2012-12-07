@@ -22,7 +22,8 @@ login: demo
 senha: demo123
 
 Você verá uma mensagem padrão que pode ser personalizada, algo +/- assim:
-![My image](https://github.com/deivisonarthur/MagentoOffline/demo.png)
+
+![My image](https://raw.github.com/deivisonarthur/MagentoOffline/master/demo.png)
 
 Existe a possibilidade de editar o html apresentado nessa página inicial pela administração do módulo!
 
