@@ -8,18 +8,19 @@ Ou seja, basicamente esse módulos exatamente isso, ele coloca o seu site offili
 Ele trabalha antes do carregamento de qualquer outro módulo ou theme do Magento, setando o seu status como 503 para os monitores de buscas, fazendo com que você não perca a posição nos monitores de busca.
 
 Versões
-=================
-Ele funciona tanto para Magento Community tanto para a versão Enterprise! A partir da versão 1.4+
+--------------
+Ele funciona tanto para Magento **Community** tanto para a versão **Enterprise**! A partir da versão **1.4+**
 
 Obs: Esse módulo também funciona com múltiplas lojas do Magento!
 
 Demostração
-=================
+--------------
 A demostração online de seu funcionamento pode ser visualizada em: http://onestepcheckout.com.br/final3/magento-1.5.1.0/
 
 Para testar a administração: http://onestepcheckout.com.br/final3/magento-1.5.1.0/admin
-login: demo
-senha: demo123
+
+login: **demo**
+senha: **demo123**
 
 Você verá uma mensagem padrão que pode ser personalizada, algo +/- assim:
 
